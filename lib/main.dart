@@ -29,8 +29,7 @@ class Home extends StatelessWidget {
                   Text(
                     "Nitin jiwnani",
                     style: TextStyle(
-                      fontSize: 30,
-                    ),
+                        fontSize: 30, fontFamily: "font/Roboto-Medium.ttf"),
                   ),
                   Text(
                     "Designation",
@@ -43,7 +42,7 @@ class Home extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 50,
+            height: 30,
           ),
           Padding(
             padding: const EdgeInsets.only(left: 30),
@@ -56,7 +55,7 @@ class Home extends StatelessWidget {
                       size: 40,
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 25,
                     ),
                     Text(
                       "School Name",
@@ -66,6 +65,9 @@ class Home extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Row(
                   children: <Widget>[
                     Icon(
@@ -73,7 +75,7 @@ class Home extends StatelessWidget {
                       size: 40,
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 25,
                     ),
                     Text(
                       "School Name",
@@ -83,6 +85,9 @@ class Home extends StatelessWidget {
                     )
                   ],
                 ),
+                SizedBox(
+                  height: 10,
+                ),
                 Row(
                   children: <Widget>[
                     Icon(
@@ -90,13 +95,16 @@ class Home extends StatelessWidget {
                       size: 40,
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 25,
                     ),
                     Text("School Name",
                         style: TextStyle(
                           fontSize: 20,
                         ))
                   ],
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Row(
                   children: <Widget>[
@@ -105,13 +113,16 @@ class Home extends StatelessWidget {
                       size: 40,
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 25,
                     ),
                     Text("School Name",
                         style: TextStyle(
                           fontSize: 20,
                         ))
                   ],
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 Row(
                   children: <Widget>[
@@ -120,7 +131,7 @@ class Home extends StatelessWidget {
                       size: 40,
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 25,
                     ),
                     Text("School Name",
                         style: TextStyle(
@@ -131,7 +142,19 @@ class Home extends StatelessWidget {
               ],
             ),
           ),
-          Text("About me"),
+          SizedBox(
+            height: 50,
+          ),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Text(
+              "About me sdcsdc  csacc zvzdv zdcdfsv dxdfrsevs sdvsefvservre svsfdvre dvseevsrev sd vsdvssev fs sfvvd trvsevs dvvwecef fvevsvf",
+              style: TextStyle(fontSize: 22),
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
           Text("Created By Me")
         ]),
       ),
