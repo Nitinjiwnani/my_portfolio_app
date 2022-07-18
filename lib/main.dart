@@ -29,7 +29,8 @@ class Home extends StatelessWidget {
                   Text(
                     "Nitin jiwnani",
                     style: TextStyle(
-                        fontSize: 30, fontFamily: "font/Roboto-Medium.ttf"),
+                      fontSize: 30,
+                    ),
                   ),
                   Text(
                     "Designation",
